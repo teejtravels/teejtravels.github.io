@@ -7,91 +7,115 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .contact-info {
+            text-align: center;
             margin-bottom: 20px;
         }
         .section {
             margin-bottom: 20px;
+            text-align: center;
         }
         .section-title {
             font-weight: bold;
             margin-bottom: 10px;
+            text-transform: uppercase;
         }
         .job-title {
             font-weight: bold;
+            margin-top: 10px;
         }
         ul {
-            list-style-type: disc;
-            padding-left: 20px;
+            list-style-type: none;
+            padding-left: 0;
+            text-align: left;
+            display: inline-block;
+        }
+        ul li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
-    <div class="contact-info">
-        <p>Nelson (T.J.) Tolliver Jr</p>
-        <p>805-217-0679 | nelsontolliverjr@gmail.com | <a href="https://linkedin.com/in/tj-tolliver/" target="_blank">linkedin.com/in/tj-tolliver/</a></p>
-    </div>
+    <div class="container">
+        <div class="contact-info">
+            <p>Nelson (T.J.) Tolliver Jr</p>
+            <p>805-217-0679 | <a href="mailto:nelsontolliverjr@gmail.com">nelsontolliverjr@gmail.com</a> | <a href="https://linkedin.com/in/tj-tolliver/" target="_blank">linkedin.com/in/tj-tolliver/</a></p>
+        </div>
 
-    <div class="section">
-        <div class="section-title">EDUCATION</div>
-        <p>University of California, Irvine, Irvine, CA 06/2024</p>
-        <p>Master of Science in Business Analytics</p>
-        <p>Relevant coursework: Python, SQL, Data Visualization, Data Engineering, Machine Learning</p>
-        <p>Thomas Edison State University, Trenton, NJ 06/2018</p>
-        <p>Bachelor of Natural Science and Mathematics</p>
-    </div>
+        <div class="section">
+            <div class="section-title">EDUCATION</div>
+            <p>University of California, Irvine, Irvine, CA 06/2024</p>
+            <p>Master of Science in Business Analytics</p>
+            <p>Relevant coursework: Python, SQL, Data Visualization, Data Engineering, Machine Learning</p>
+            <p>Thomas Edison State University, Trenton, NJ 06/2018</p>
+            <p>Bachelor of Natural Science and Mathematics</p>
+        </div>
 
-    <div class="section">
-        <div class="section-title">EXPERIENCE</div>
-        
-        <div class="job-title">Pacific Life, UC Irvine Student Apprenticeship           01/2024 - Current</div>
-        <p>Student Data Analyst</p>
-        <ul>
-            <li>Data-Driven Student Apprenticeship Project at UCI, defining project scope and deliverables in collaboration with stakeholders, while establishing and monitoring KPIs and metrics to ensure alignment with goals and timely delivery.</li>
-            <li>Implemented Data ETL Processes using Python and SQL using APIs to extract, clean, and store large datasets to prepare data for in-depth analysis and visualization.</li>
-            <li>Developed Predictive Models for Financial Data Analysis, applying machine learning algorithms to forecast equity performance, providing actionable insights into future market trends.</li>
-            <li>Crafted and Presented Data Visualizations using Python, Tableau and PowerBI, effectively communicating complex data insights to stakeholders.</li>
-        </ul>
+        <div class="section">
+            <div class="section-title">EXPERIENCE</div>
+            
+            <div class="job-title">Pacific Life, UC Irvine Student Apprenticeship           01/2024 - Current</div>
+            <p>Student Data Analyst</p>
+            <ul>
+                <li>Data-Driven Student Apprenticeship Project at UCI, defining project scope and deliverables in collaboration with stakeholders, while establishing and monitoring KPIs and metrics to ensure alignment with goals and timely delivery.</li>
+                <li>Implemented Data ETL Processes using Python and SQL using APIs to extract, clean, and store large datasets to prepare data for in-depth analysis and visualization.</li>
+                <li>Developed Predictive Models for Financial Data Analysis, applying machine learning algorithms to forecast equity performance, providing actionable insights into future market trends.</li>
+                <li>Crafted and Presented Data Visualizations using Python, Tableau and PowerBI, effectively communicating complex data insights to stakeholders.</li>
+            </ul>
 
-        <div class="job-title">Disko AI               02/2024 – Current</div>
-        <p>Machine Learning Consultant</p>
-        <ul>
-            <li>Working with internal and external stakeholders to develop a python based matching algorithm to take data from Excel and CSV files and use AI and machine learning to automate processes and create efficient workflows for clients.</li>
-        </ul>
+            <div class="job-title">Disko AI               02/2024 – Current</div>
+            <p>Machine Learning Consultant</p>
+            <ul>
+                <li>Working with internal and external stakeholders to develop a python based matching algorithm to take data from Excel and CSV files and use AI and machine learning to automate processes and create efficient workflows for clients.</li>
+            </ul>
 
-        <div class="job-title">Northrop Grumman, Redondo Beach, CA           11/2022 – 08/2023</div>
-        <p>Cost Analyst</p>
-        <ul>
-            <li>Performed financial analyses and reporting such as variance analysis and estimate at completes to keep compliant with government earned value requirements.</li>
-            <li>Collaborated with Control Account Managers and IPT Leads to control costs throughout Control Accounts and Work Packages utilizing a WBS Structure.</li>
-            <li>Part of the business process feedback team, helping with the development of SharePoint and PowerBI tools to replace excel based processes.</li>
-            <li>Developed Job requirements and training document for cost analyst position to shorten training time for future analysts.</li>
-        </ul>
+            <div class="job-title">Northrop Grumman, Redondo Beach, CA           11/2022 – 08/2023</div>
+            <p>Cost Analyst</p>
+            <ul>
+                <li>Performed financial analyses and reporting such as variance analysis and estimate at completes to keep compliant with government earned value requirements.</li>
+                <li>Collaborated with Control Account Managers and IPT Leads to control costs throughout Control Accounts and Work Packages utilizing a WBS Structure.</li>
+                <li>Part of the business process feedback team, helping with the development of SharePoint and PowerBI tools to replace excel based processes.</li>
+                <li>Developed Job requirements and training document for cost analyst position to shorten training time for future analysts.</li>
+            </ul>
 
-        <div class="job-title">US Navy, Corpus Christi, TX              03/2019– 10/2021</div>
-        <p>Lieutenant</p>
-        <ul>
-            <li>Briefed Executive-Level Officers on developed flight plans to execute training mission requirements.</li>
-            <li>Alpha tested virtual reality Navy Pilot training program working with program managers in troubleshooting and system setup to help with integration into pre-existing flight training syllabus.</li>
-        </ul>
-    </div>
+            <div class="job-title">US Navy, Corpus Christi, TX              03/2019– 10/2021</div>
+            <p>Lieutenant</p>
+            <ul>
+                <li>Briefed Executive-Level Officers on developed flight plans to execute training mission requirements.</li>
+                <li>Alpha tested virtual reality Navy Pilot training program working with program managers in troubleshooting and system setup to help with integration into pre-existing flight training syllabus.</li>
+            </ul>
+        </div>
 
-    <div class="section">
-        <div class="section-title">PROJECTS & ACTIVITIES</div>
-        <p>Property Asset Manager                                                                                     11/2020 – Current</p>
-        <ul>
-            <li>Ensure tenant satisfaction and retention through handling communications, maintenance requests, payment processing and leasing through different software applications.</li>
-        </ul>
-    </div>
+        <div class="section">
+            <div class="section-title">PROJECTS & ACTIVITIES</div>
+            <p>Property Asset Manager                                                                                     11/2020 – Current</p>
+            <ul>
+                <li>Ensure tenant satisfaction and retention through handling communications, maintenance requests, payment processing and leasing through different software applications.</li>
+            </ul>
+        </div>
 
-    <div class="section">
-        <div class="section-title">SKILLS</div>
-        <p>Strengths: Project Management, Data Analysis, Risk Management, Cross-functional Team Leadership, Communication, Problem-Solving, Organization, Cost Analysis, Price Estimation</p>
-        <p>Technical:  MS 365 Suite, PowerBI, Tableau, SQL, R, Python, Snowflake, Databricks MPM/Cobra</p>
-        <p>Trainings & Certificates: Foundations of Project management, EVMS/Earned Value, Active TS/SCI</p>
+        <div class="section">
+            <div class="section-title">SKILLS</div>
+            <p>Strengths: Project Management, Data Analysis, Risk Management, Cross-functional Team Leadership, Communication, Problem-Solving, Organization, Cost Analysis, Price Estimation</p>
+            <p>Technical:  MS 365 Suite, PowerBI, Tableau, SQL, R, Python, Snowflake, Databricks MPM/Cobra</p>
+            <p>Trainings & Certificates: Foundations of Project management, EVMS/Earned Value, Active TS/SCI</p>
+        </div>
     </div>
 
 </body>
